@@ -2,16 +2,16 @@
 - name: Installing monitoring services in ubuntu
   hosts: ubuntu
   roles:
-    - ELK_UBUNTU
-    - Nagios_UBUNTU
-    - Grafana_UBUNTU
+    - elk-ubuntu
+    - nagios-ubuntu
+    - grafana-ubuntu
     - Prometheus_UBUNTU
 
 - name: Installing monitoring services in centos
   hosts: centos
   roles:
-    - ELK_CENTOS
-    - Nagios_CENTOS
-    - Grafana_CENTOS
+    - elk-centos
+    - nagios-centos
+    - grafana-centos
     - Prometheus_CENTOS
 
